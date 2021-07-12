@@ -1,0 +1,26 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning = FALSE, message = FALSE}
+library(dplyr)
+library(tidyr)
+library(readr)
+```
+
+```{r, message = FALSE}
+catch_original <- read_csv("https://knb.ecoinformatics.org/knb/d1/mn/v2/object/df35b.302.1")
+```
+
+```{r}
+catch_data <- catch_original %>% 
+  select(-All, -notesRegCode)
+
+names(catch_data)
+```
+
