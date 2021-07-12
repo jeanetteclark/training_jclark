@@ -21,3 +21,7 @@ knitr::opts_chunk$set(echo = TRUE)
 * calculate mean Redfield ratio
 * plot Redfield ratio
 
+```{r}
+read.csv("../data/BGchem2008data.csv")
+```
+
