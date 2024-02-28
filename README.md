@@ -1,6 +1,6 @@
 # training_jclark
 
-A repository for learning git and GitHub in the Arctic Data Center reproducible research course. This course took place over 5 days from February 26 to March 1, 2024, and it was great!
+A repository for learning git and GitHub in the Arctic Data Center reproducible research course. This course took place over 5 days from February 26 to March 1, 2024, and it was great! We had 20 participants.
 
 ## Project Information
 
