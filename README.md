@@ -1,4 +1,4 @@
-# training_jclark
+# training_jclark: Jeanette
 
 This is a training repository to learn about git.
 
